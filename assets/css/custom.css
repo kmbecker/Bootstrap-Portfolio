@@ -1,73 +1,43 @@
 img {
 	width: 64px;
 	height: 64px;
-
-	.navbar-default {
-  background-color: #4952bf;
-  border-color: #170d6d;
-}
-.navbar-default .navbar-brand {
-  color: #b9eefb;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #fbfbfb;
-}
-.navbar-default .navbar-text {
-  color: #b9eefb;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #b9eefb;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #fbfbfb;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #fbfbfb;
-  background-color: #170d6d;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #fbfbfb;
-  background-color: #170d6d;
-}
-.navbar-default .navbar-toggle {
-  border-color: #170d6d;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #170d6d;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #b9eefb;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #b9eefb;
-}
-.navbar-default .navbar-link {
-  color: #b9eefb;
-}
-.navbar-default .navbar-link:hover {
-  color: #fbfbfb;
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #b9eefb;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fbfbfb;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fbfbfb;
-    background-color: #170d6d;
-  }
+body {
+	background-image: url("https://www.abco.sa.com/wp-content/uploads/2016/03/JOES-Website-Background-light-grey.jpg");
+	background-repeat: repeat;
+}
+
+#main-section {
+	width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid black;
+  z-index: 1000;
+}	
+
+#socialBar {
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid black;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
